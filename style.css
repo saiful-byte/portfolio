@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+     color: black;
+}
+.logo{
+    font-size: 48px;
+}
+.header-container{
+    background-color: #f5ebd7;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+li{
+    padding: 16px;
+    list-style-type: none;
+}
+.btn-primary{
+    background-color: red;
+    color: white;
+    font: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
